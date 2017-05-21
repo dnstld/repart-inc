@@ -16,6 +16,9 @@ var gulp             = require('gulp'),
 
 	// js files
 	scripts  = {
+		jquery: 'vendor/jquery/dist/jquery.min.js',
+		fullpage: 'vendor/fullpage.js/dist/jquery.fullpage.min.js',
+		vivus: 'vendor/vivus/dist/vivus.min.js',
 		main: 'dev/js/main.js'
 	};
 
@@ -60,6 +63,9 @@ gulp.task('css', function() {
 
 gulp.task('js', function() {
 	return gulp.src([
+			scripts.jquery,
+			scripts.fullpage,
+			scripts.vivus,
 			scripts.main
 		])
 		.pipe(concatJS('main.js'))

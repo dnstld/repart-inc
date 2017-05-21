@@ -1,6 +1,6 @@
 // vendor
 @import "./../../vendor/eric-mayer-reset-less-sass/reset.scss";
-@import "./../../vendor/fullpage.js/dist/jquery.fullpage.min.css";
+@import "./../../vendor/fullpage.js/dist/jquery.fullpage.scss";
 
 // general
 @import "general/_icons";
@@ -14,3 +14,4 @@
 @import "elements/_main-footer";
 @import "elements/_initial-page";
 @import "elements/_about-repart";
+@import "elements/_enterprises-repart";

@@ -1,0 +1,54 @@
+.enterprises-repart {
+	@include box-sizing;
+	height: 100%;
+	background-color: #f1f1f1;
+	position: relative;
+
+	> .enterprises {
+		@include alignXY;
+		width: 90%;
+
+		@include breakpoint(tablet) {
+			width: 70%;
+		}
+
+		> header {
+			border-bottom: 1px solid #999;
+			padding-bottom: 10px;
+
+			> h2 {
+				font-size: 150%;
+				font-weight: 700;
+				text-transform: uppercase;
+				color: $color-primary;
+			}
+			> span {
+				display: block;
+				font-style: italic;
+			}
+		}
+		> .description {
+			display: block;
+			margin: 20px 0;
+			line-height: 120%;
+
+			> a {
+				width: 40%;
+				display: block;
+				float: left;
+				margin-right: 10px;
+
+				> img {
+					width: 100%;
+				}
+				> span {
+					font-size: 10px;
+				}
+			}
+		}
+		> footer {
+			border-top: 1px solid #999;
+			padding-top: 10px;
+		}
+	}
+}
