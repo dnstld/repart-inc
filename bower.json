@@ -12,6 +12,8 @@
   ],
   "devDependencies": {
     "eric-mayer-reset-less-sass": "https://github.com/dnstld/eric-mayer-reset-less-sass.git",
-    "vivus": "^0.4.0"
+    "vivus": "^0.4.0",
+    "fullpage.js": "^2.9.4",
+    "jquery": "^3.2.1"
   }
 }
