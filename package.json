@@ -1,6 +1,6 @@
 {
-  "name": "scss-boilerplate",
-  "description": "https://github.com/dnstld/scss-boilerplate",
+  "name": "repart-inc",
+  "description": "website institucional da empresa",
   "author": "denis toledo",
   "license": "ISC",
   "devDependencies": {

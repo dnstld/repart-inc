@@ -1,19 +1,16 @@
 {
-  "name": "scss-boilerplate",
-  "description": "scss boilerplate",
+  "name": "repart-inc",
+  "description": "website institucional da empresa",
   "main": "",
   "authors": [
     "denis toledo"
   ],
   "license": "ISC",
-  "homepage": "https://github.com/dnstld/scss-boilerplate",
+  "homepage": "https://github.com/dnstld/repart-inc",
   "ignore": [
     "**/.*",
     "node_modules",
-    "bower_components",
     "vendor",
-    "test",
-    "tests"
   ],
   "devDependencies": {
     "eric-mayer-reset-less-sass": "https://github.com/dnstld/eric-mayer-reset-less-sass.git"
