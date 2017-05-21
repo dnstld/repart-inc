@@ -1,18 +1,17 @@
 {
   "name": "repart-inc",
   "description": "website institucional da empresa",
-  "main": "",
   "authors": [
     "denis toledo"
   ],
   "license": "ISC",
-  "homepage": "https://github.com/dnstld/repart-inc",
   "ignore": [
     "**/.*",
     "node_modules",
-    "vendor",
+    "vendor"
   ],
   "devDependencies": {
-    "eric-mayer-reset-less-sass": "https://github.com/dnstld/eric-mayer-reset-less-sass.git"
+    "eric-mayer-reset-less-sass": "https://github.com/dnstld/eric-mayer-reset-less-sass.git",
+    "vivus": "^0.4.0"
   }
 }
