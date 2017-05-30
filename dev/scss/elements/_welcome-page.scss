@@ -1,0 +1,67 @@
+.welcome-page {
+  @include box-sizing;
+  height: 100%;
+  text-align: center;
+  position: relative;
+  text-transform: uppercase;
+  background-color: #f5f5f5;
+  
+  > .welcome {
+    @include alignXY;
+    width: 90%;
+
+    @include breakpoint(tablet) {
+      width: 70%;
+    }
+
+    > img {
+      width: 120px;
+
+      @include breakpoint(tablet) {
+        width: 150px;
+      }
+    }
+    > h1 {
+      font-size: 24px;
+      margin: 20px 0;
+      color: $color-primary;
+    }
+    > strong {
+      display: block;
+      line-height: 150%;
+    }
+    > a {
+      display: inline-block;
+      padding: 10px 20px;
+      margin-top: 20px;
+      background-color: $color-primary;
+      color: #fff;
+
+      > span {
+
+      }
+    }
+  }
+}
+#logo-history {
+  max-width: 500px;
+  padding: 30px;
+  margin: 0;
+
+  @include breakpoint(mobile) {
+    padding: 60px;
+  }
+
+  p {
+    line-height: 120%;
+    margin-top: 10px;
+
+    &:first-child {
+      margin-top: 0;
+    }
+
+    @include breakpoint(tablet) {
+      line-height: 150%;
+    }
+  }
+}

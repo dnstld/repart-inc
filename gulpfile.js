@@ -19,6 +19,7 @@ var gulp             = require('gulp'),
 		jquery: 'vendor/jquery/dist/jquery.min.js',
 		fullpage: 'vendor/fullpage.js/dist/jquery.fullpage.min.js',
 		vivus: 'vendor/vivus/dist/vivus.min.js',
+		fancybox: 'vendor/fancybox/dist/jquery.fancybox.min.js',
 		main: 'dev/js/main.js'
 	};
 
@@ -66,6 +67,7 @@ gulp.task('js', function() {
 			scripts.jquery,
 			scripts.fullpage,
 			scripts.vivus,
+			scripts.fancybox,
 			scripts.main
 		])
 		.pipe(concatJS('main.js'))

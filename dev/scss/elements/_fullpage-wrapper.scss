@@ -1,0 +1,14 @@
+.fullpage-wrapper {
+  .fp-controlArrow {
+    &.fp-prev {
+      left: 5px;
+      border-width: 20px 20px 20px 0;
+      border-color: transparent rgba(255, 255, 255, .3) transparent transparent;
+    }
+    &.fp-next {
+      right: 5px;
+      border-width: 20px 0 20px 20px;
+      border-color: transparent transparent transparent rgba(255, 255, 255, .3);
+    }
+  }
+}

@@ -2,6 +2,7 @@
 	@include box-sizing;
 	height: 100%;
 	position: relative;
+	background-color: #f1f1f1;
 
 	> .about {
 		@include alignXY;
@@ -12,14 +13,14 @@
 		}
 
 		> p {
-			line-height: 120%;
+			line-height: 100%;
 			text-align: center;
-			font-size: 14px;
 			margin: 20px 0;
-			text-transform: uppercase;
 
+			@include breakpoint(mobile) {
+				line-height: 120%;
+			}
 			@include breakpoint(tablet) {
-				font-size: 16px;
 				line-height: 150%;
 			}
 		}

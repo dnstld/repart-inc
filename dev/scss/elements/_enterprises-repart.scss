@@ -1,7 +1,8 @@
 .enterprises-repart {
 	@include box-sizing;
 	height: 100%;
-	background-color: #f1f1f1;
+	background-color: black;
+	color: white;
 	position: relative;
 
 	> .enterprises {
@@ -28,6 +29,7 @@
 			}
 		}
 		> .description {
+			@include clearfix;
 			display: block;
 			margin: 20px 0;
 			line-height: 120%;
@@ -47,6 +49,7 @@
 			}
 		}
 		> footer {
+			@include clearfix;
 			border-top: 1px solid #999;
 			padding-top: 10px;
 		}
